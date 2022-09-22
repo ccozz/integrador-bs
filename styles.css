@@ -174,12 +174,13 @@ footer a:link {
 @media (max-width: 575.98px) {
 
   .item-nav {
-    margin-top: 1.5vw;
-    margin-left: 5%;
+    margin-inline: 2%;
+    margin-top: 2%;
+    font-size: 2vw;
   }
 
   .banner {
-    padding: 10vw 5vw 10vw 25%;
+    padding: 27vw 5vw 5vw 27%;
   }
 
   .contenido-banner {
@@ -188,6 +189,10 @@ footer a:link {
 
   .contenido-banner p:first-child {
     font-size: 4vw;
+  }
+
+  .contenido-banner button {
+    font-size: 2vw;
   }
 
   .tarjetas {
@@ -207,10 +212,15 @@ footer a:link {
 
   .tarjetas-titulo p:nth-child(2) {
     font-size: 3.5vw;
+    margin-bottom: -2vw;
   }
 
   .tarjetas button {
     font-size: 1.5vw;
+  }
+
+  .card-body h5 {
+    font-size: 4.5vw;
   }
 
   .tarjeta2 p {
@@ -227,7 +237,30 @@ footer a:link {
 
   .area-texto .texto-titulo p:nth-child(2) {
     font-size: 3.5vw;
-    margin-top: -3vw;
+    margin-top: -4vw;
+  }
+
+  .area-texto .texto-titulo p:nth-child(3) {
+    margin-top: -4vw;
+  }
+
+  .form-area-texto {
+    margin-top: -2vw;
+    font-size: 1vw;
+  }
+
+  .form-area-texto input {
+    font-size: 2vw;
+    margin-bottom: -3vw;
+  }
+
+  .form-area-texto textarea {
+    font-size: 2vw;
+  }
+
+  .form-area-texto button {
+    font-size: 2vw;
+    margin-top: -5vw;
   }
 
   footer {
