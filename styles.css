@@ -1,18 +1,38 @@
 .navbar {
-    height: 70px;
+  height: 70px;
 }
 
 .logoCodo {
-    width: 90px;
+  width: 90px;
 }
 
 .conf {
-    color: white;
+  color: white;
+}
+
+.item-nav {
+  display: inline;
+  margin-inline: 1vw;
+}
+
+.item-nav a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.item-nav a:hover {
+  background-color: rgb(78, 77, 77);
+}
+
+.items-der {
+  background-color: #212529;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .banner {
-  /*background-image: url("https://i.ibb.co/grq9FMX/ba1.jpg"); */
-  background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4)), url("img/ba1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url("img/ba1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 13vw 7vw 15vw 40%;
@@ -45,7 +65,7 @@
 
 .tarjetas-titulo p:first-child {
   font-size: 1vw;
-  margin-top: 1.5vw;
+  margin-top: 1vw;
   margin-bottom: -.5vw;
 }
 
@@ -55,8 +75,10 @@
 }
 
 .tarjetas {
-  margin: -2vw 15% 2vw 15%;
-  
+  margin-top: -2vw;
+  margin-right: 10%;
+  margin-bottom: 2vw;
+  margin-left: 10%;
 }
 
 .tarjetas div {
@@ -76,7 +98,7 @@
 
 .tarjetas .btn-info {
   color: white;
-} 
+}
 
 /* card ---------------------------------------- */
 
@@ -97,7 +119,7 @@
 /* area de texto ------------------------------- */
 
 .area-texto {
-  margin: 2% 20%; 
+  margin: 2% 20%;
 }
 
 .texto-titulo {
@@ -125,7 +147,8 @@
 /* footer -------------------------------------- */
 
 footer {
-  background-color: #005b7f;
+  background: rgb(28,54,67);
+  background: linear-gradient(90deg, rgba(28,54,67,1) 35%, rgba(30,83,114,1) 100%);
   color: white;
 }
 
@@ -143,67 +166,71 @@ footer a:link {
   color: white;
 }
 
-/* ---- media queries -------------------------------------------------------------------------*/
+/* ---- media queries ---------------------------------------------------------------*/
 
 @media (max-width: 575.98px) {
-  
-  .navbar {
-    height: 60px;
+
+  .item-nav {
+    margin-top: 1.5vw;
+    margin-left: 5%;
   }
-  
+
   .banner {
     padding: 10vw 5vw 10vw 25%;
   }
-  
+
   .contenido-banner {
     font-size: 2vw;
   }
-  
+
   .contenido-banner p:first-child {
-  font-size: 4vw;
+    font-size: 4vw;
   }
-  
+
   .tarjetas {
-    margin: -2vw 1% 2vw 1%; 
+    margin-top: -2vw;
+    margin-right: 1%;
+    margin-bottom: 2vw;
+    margin-left: 1%;
   }
-  
+
   .tarjetas p {
     font-size: 2vw;
   }
-  
+
   .tarjetas-titulo p:first-child {
     font-size: 1.5vw;
   }
-  
+
   .tarjetas-titulo p:nth-child(2) {
     font-size: 3.5vw;
   }
-  
+
   .tarjetas button {
     font-size: 1.5vw;
   }
-  
+
   .tarjeta2 p {
     font-size: 2vw;
   }
-  
+
   .tarjeta2 button {
     font-size: 2vw;
   }
-  
+
   .area-texto p {
     font-size: 1.5vw;
   }
-  
+
   .area-texto .texto-titulo p:nth-child(2) {
     font-size: 3.5vw;
     margin-top: -3vw;
   }
-  
+
   footer {
     font-size: 2vw;
   }
 
 }
 
-/* ------------------------------------------------------------------------------------------ */
+/* --------------------------------------------------------------------------------- */
